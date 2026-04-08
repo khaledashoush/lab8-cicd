@@ -6,5 +6,6 @@ CREATE TABLE IF NOT EXISTS tasks (
 
 INSERT INTO tasks (name, status) VALUES
   ('Task 1', 'pending'),
-  ('Task 2', 'completed')
+  ('Task 2', 'completed'),
+  ('Tea', 'pending')
 ON CONFLICT DO NOTHING;
